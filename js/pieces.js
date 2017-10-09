@@ -46,3 +46,9 @@ function King () {
         black: '&#9818;'
     });
 }
+
+function Square (code, color, piece) {
+    this.code = code;
+    this.color = color;
+    this.piece = piece;
+}
