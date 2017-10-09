@@ -2,6 +2,7 @@ function Piece (name, value, notation, htmlCode) {
     this.name = name;
     this.value = value;
     this.htmlCode = htmlCode;
+    this.color;
     this.move = function() {};
 }
 
